@@ -1,0 +1,55 @@
+#My notes for console usage tricks and shortcuts.
+
+>To turn back last directory.
+cd -(dash)
+
+>To go to home directory.
+cd ~(tilde)
+
+>To make terminal screen empty.
+Ctrl+L 
+
+>To switch last directory which pushed back.
+pushd 
+"example pushd /etc 
+cd ~"
+
+>To turn back to the directory pushed back.
+popd
+"exmample popd - This will take you to /etc directory"
+
+>To put a process to background and turn back.
+Ctrl+Z to put the process to background
+type "fg" to turn back the process
+
+>To run last command with forgetten or new inputs.
+"!!" example apt-get update - sudo !!
+
+>To see and run commands from history.
+Ctrl+R
+
+>To incrise and decrise font size on terminal.
+Ctrl+ and Cntrl-
+
+>To delete all commands on the line.
+Ctrl+U
+
+>To go to at the beginning of the line.
+Ctrl+A
+
+>To to to at the end of the line.
+Ctrl+E
+
+>To run multi command.
+";" or "&&" - the difference is on "&&" both first command should be valid.
+
+
+
+
+
+
+
+
+
+
+
